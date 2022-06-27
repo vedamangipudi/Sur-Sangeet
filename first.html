@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sangeet</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="first.css">
+</head>
+<body>
+    <center>
+        <h1>Sur-Sangeet!</h1>
+        <label id="note">Click on the buttons to hear the sound.</label>
+        <div class="container" id="div">
+            <div class="container" id="div1">
+                <button class="btn btn-danger" id="sa" onclick="sa()">Sa</button>
+                <button class="btn btn-success" id="re" onclick="re()">Re</button>
+                <button class="btn btn-info" id="ga" onclick="ga()">Ga</button>
+                <button class="btn btn-danger" id="ma" onclick="ma()">Ma</button>
+                <button class="btn btn-success" id="pa" onclick="pa()">Pa</button>
+                <button class="btn btn-info" id="dha" onclick="dha()">Dha</button>
+                <button class="btn btn-danger" id="ni" onclick="ni()">Ni</button>
+                <button class="btn btn-success" id="rrr" onclick="rrr()">Sa</button>
+            </div>
+        </div>
+        <button id="first_full" class="btn btn-primary" onclick="firstPlay()">Play Full</button>
+        <div class="container" id="div">
+            <div class="container" id="div1">
+                <button class="btn btn-danger" id="sa" onclick="rrr()">Sa</button>
+                <button class="btn btn-success" id="re" onclick="ni()">Ni</button>
+                <button class="btn btn-info" id="ga" onclick="dha()">Dha</button>
+                <button class="btn btn-danger" id="ma" onclick="pa()">Pa</button>
+                <button class="btn btn-success" id="pa" onclick="ma()">Ma</button>
+                <button class="btn btn-info" id="dha" onclick="ga()">Ga</button>
+                <button class="btn btn-danger" id="ni" onclick="re()">Re</button>
+                <button class="btn btn-success" id="rrr" onclick="sa()">Sa</button>
+            </div>
+        </div>
+        <button id="second_full" class="btn btn-primary" onclick="firstbPlay()">Play Full</button>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <button id="next1" class="btn btn-secondary" onclick="next1()">Next</button>
+        <button id="home1" class="btn btn-secondary" onclick="home1()">Home</button>
+    </center>
+    <audio id="Sa" src="sa.mp3"></audio>
+    <audio id="Re" src="re.mp3"></audio>
+    <audio id="Ga" src="ga.mp3"></audio>
+    <audio id="Ma" src="ma.mp3"></audio>
+    <audio id="Pa" src="pa.mp3"></audio>
+    <audio id="Dha" src="dha.mp3"></audio>
+    <audio id="Ni" src="ni.mp3"></audio>
+    <audio id="Rrr" src="rrr.mp3"></audio>
+    <audio id="first" src="Vocal.mp3"></audio>
+    <audio id="firstb" src="firstb.mp3"></audio>
+	<script src="first.js"></script>
+    </body>
+    </html>

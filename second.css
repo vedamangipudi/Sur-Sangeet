@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+  background-image: linear-gradient(to right top, #f752d3, #f7bd40, #faeb60, #f7bd40, #f752d3);
+  }
+  
+  #div {
+      padding-top: 100px;
+  }
+  
+  #div1 {
+      padding-bottom: 10px;
+  }
+  
+  .button {
+      padding-right: 100px;
+      padding-left: 100px;
+      width: 40px;
+      height: 50px;
+  }
+  

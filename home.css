@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url("saraswati1.jpg");
+    background-repeat: no-repeat, repeat;
+  }
+
+#in {
+    padding-top: 30px;
+}
+
+#in1 {
+    padding-bottom: 15px;
+}
+
+#z1 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#z2 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#z3 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#z4 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#z5 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#rr {
+    padding-left: 500px;
+}
+
+#z {
+    font-size: xx-large;
+    text-align: center;
+    width: 500px;
+    font-family: cursive;
+}
+
+#zz {
+    font-size: xx-large;
+    text-align: center;
+    width: 500px;
+    font-family: cursive;
+}
+
+#zzz {
+    font-size: xx-large;
+    text-align: center;
+    width: 500px;
+    font-family: cursive;
+}
+
+#zzzz {
+    font-size: xx-large;
+    text-align: center;
+    width: 500px;
+    font-family: cursive;
+}
+
+#zzzzz {
+    font-size: xx-large;
+    text-align: center;
+    width: 500px;
+    font-family: cursive;
+}
+
+#start {
+    font-size: xx-large;
+    text-align: center;
+    width: 300px;
+    font-family: cursive;
+}
